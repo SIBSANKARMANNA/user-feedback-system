@@ -1,0 +1,84 @@
+/* Simple basic styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+}
+
+.navbar {
+  background: #0077cc;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+/* Page content styling */
+.page {
+  flex: 1; /* Ensures the page content takes available space */
+  padding: 20px;
+  min-height:75vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  max-width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.error {
+  color: red;
+}
