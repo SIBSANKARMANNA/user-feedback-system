@@ -1,24 +1,24 @@
-### User Feedback System
+# User Feedback System
 This project is a User Feedback System where users can submit feedback about a website or application, and the system allows feedback filtering and sorting. Admins can view the feedback and manage it through a dashboard.
 
 ## Table of Contents:
 Project Description
 
-# Technologies Used
+1. Technologies Used
 
-# Installation & Setup
+2. Installation & Setup
 
-# How to Run Locally
+3. How to Run Locally
 
-# Architecture & Flow
+4. Architecture & Flow
 
-# Features
+5. Features
 
 
-## Project Description:
+### Project Description:
 The User Feedback System is designed to allow users to submit feedback with their username, email, and feedback message. They can optionally select a category such as Feature Request, Bug Report, or General Feedback. The application includes a Dashboard where admins can sort and filter the feedback.
 
-## Technologies Used:
+### Technologies Used:
 Frontend: React.js
 
 Backend: Node.js + Express.js
@@ -33,7 +33,7 @@ CSS: Custom Styles (Optional: can use libraries like Bootstrap or Material-UI)
 
 Authentication: JWT (Optional, based on further implementation)
 
-## Installation & Setup:
+### Installation & Setup:
 To get started, clone the repository and follow the instructions below to set up both the frontend and backend parts of the application.
 
 Prerequisites
@@ -66,7 +66,7 @@ Run the frontend development server:
 npm start
 The frontend should now be running at http://localhost:3000.
 
-## How to Run Locally:
+### How to Run Locally:
 Once you've set up both the frontend and backend, you can run both servers locally. Ensure that the backend is running on http://localhost:5000 and the frontend on http://localhost:3000.
 
 Start the backend server (in backend directory):
@@ -75,7 +75,7 @@ Start the frontend server (in frontend directory):
 npm start
 You can now navigate to http://localhost:3000 in your browser to access the application. Feedback can be submitted, and admins can view it in the dashboard.
 
-## Architecture & Flow:
+### Architecture & Flow:
 1. Frontend (React.js)
 Home Page: Displays an introduction to the feedback system and includes a form to submit feedback with username, email, feedback, and optional category.
 
@@ -109,7 +109,7 @@ Admins can filter feedback by email or category and sort by timestamp or email t
 
 The frontend fetches feedback data from the backend using a GET request and displays it in a table.
 
-## Features:
+### Features:
 User Feedback Form: Allows users to submit feedback with optional categorization.
 
 Dashboard for Admin: Displays all feedback, with options for sorting and filtering.
