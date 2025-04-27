@@ -4,15 +4,15 @@ This project is a User Feedback System where users can submit feedback about a w
 ## Table of Contents:
 Project Description
 
-Technologies Used
+# Technologies Used
 
-Installation & Setup
+# Installation & Setup
 
-How to Run Locally
+# How to Run Locally
 
-Architecture & Flow
+# Architecture & Flow
 
-Features
+# Features
 
 
 ## Project Description:
