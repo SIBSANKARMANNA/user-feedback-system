@@ -42,7 +42,7 @@ Node.js and npm (Node Package Manager) installed on your machine.
 MongoDB Atlas account (for remote MongoDB database).
 
 1. Clone the repository
-git clone https://github.com/your-username/feedback-system.git
+git clone https://github.com/SIBSANKARMANNA/user-feedback-system.git
 cd feedback-system
 2. Setup Backend
 Navigate to the backend directory:
